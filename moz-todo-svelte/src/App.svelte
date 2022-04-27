@@ -50,9 +50,9 @@
   </nav>
 
 <main>
-	<img src="/resources/top sparkle.png" alt="Top of page sparkle" width="200"/>
+	<img src="/resources/Top sparkle.png" alt="Top of page sparkle" width="200"/>
 	<h1> Caitríona and Cian's Wedding! </h1>
-	<p>Visit the </p>
+	<p>Hello! Please see the links to RSVP, check the wedding details and upload any photos you have of the happy couple!</p>
 </main>
 
 <footer>
@@ -185,7 +185,8 @@ nav {
 }
 
 .navbar-list.mobile {
-  background-color: rgba(0, 0, 0, 0.8);
+	color: #f9cc66;
+	background-color: #011e31;
   position: fixed;
   display: block;
   height: calc(100% - 45px);
