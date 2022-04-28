@@ -1,37 +1,42 @@
-import { React, useState } from "react";
-import { Bars, Nav, NavLink, NavMenu }
-    from "./NavbarElements";
+import { useState } from "react"
+import "../styles/navbar.css"
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-const Navbar = () => {
+export default function Navbar() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
 
-    const [isNavExpanded, setIsNavExpanded] = useState(false)
-    return (
-        <>
-            <Nav>
-                <Bars onClick={() => {
-                    setIsNavExpanded(!isNavExpanded);
-                }} />
-
-                <NavMenu>
-                    <NavLink to="/home" activeStyle>
-                        Home
-                    </NavLink>
-                    <NavLink to="/details" activeStyle>
-                        Details
-                    </NavLink>
-                    <NavLink to="/rsvp" activeStyle>
-                        RSVP
-                    </NavLink>
-                    <NavLink to="/photoUpload" activeStyle>
-                        Photo Upload
-                    </NavLink>
-                    <NavLink to="/photoGallery" activeStyle>
-                        Photo Gallery
-                    </NavLink>
-                </NavMenu>
-            </Nav>
-        </>
-    );
-};
-
-export default Navbar;
+  return (
+    <nav className="navigation">
+      <button className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded)
+        }}
+      >
+        <i class="fa fa-bars"/>
+      </button>
+      <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
+        <ul>
+          <li>
+            <a href="/Home">Home</a>
+          </li>
+          <li>
+            <a href="/Details">Details</a>
+          </li>
+          <li>
+            <a href="/Rsvp">RSVP</a>
+          </li>
+          <li>
+            <a href="/Upload">Photo Upload</a>
+          </li>
+          <li>
+            <a href="/Gallery">Photo Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+}

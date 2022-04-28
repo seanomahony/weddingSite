@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Euphoria";
+    src: url("\\resources\\euphoria\\EuphoriaScript-Regular.ttf")
+        format("truetype");
+}
+
+h1 {
+    font-family: "Euphoria";
+    background-color: #011e31;
+    color: #f9cc66;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+* {
+    font-family: sans-serif;
+    background-color: #011e31;
+    color: #f9cc66;
+}
