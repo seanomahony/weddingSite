@@ -1,14 +1,19 @@
 import React from "react";
+import "../styles.css"
+import UploadAndDisplayImage from '../components/UploadDisplayPhoto';
 
 const Upload = () => {
-return (
-	<div>
-	<h1>
-		GeeksforGeeks is a Computer
-		Science portal for geeks.
-	</h1>
-	</div>
-);
+	return (
+		<div>
+			<center>
+				<h1>
+					Photo Uploads
+				</h1>
+				<UploadAndDisplayImage/>
+			</center>
+		</div>
+		
+	);
 };
 
 export default Upload;

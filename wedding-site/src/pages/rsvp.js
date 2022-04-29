@@ -1,14 +1,16 @@
 import React from "react";
+import "../styles.css"
 
 const Rsvp = () => {
-return (
-	<div>
-	<h1>
-		GeeksforGeeks is a Computer
-		Science portal for geeks.
-	</h1>
-	</div>
-);
+	return (
+		<div>
+			<center>
+				<h1>
+					RSVP
+				</h1>
+			</center>
+		</div>
+	);
 };
 
 export default Rsvp;

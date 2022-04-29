@@ -30,10 +30,10 @@ export default function Navbar() {
             <a href="/Rsvp">RSVP</a>
           </li>
           <li>
-            <a href="/Upload">Photo Upload</a>
+            <a href="/photoUpload">Photo Upload</a>
           </li>
           <li>
-            <a href="/Gallery">Photo Gallery</a>
+            <a href="/photoGallery">Photo Gallery</a>
           </li>
         </ul>
       </div>
