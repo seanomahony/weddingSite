@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<footer>
             <center>
-                <img src="../../resources/bottom sparkle.png" alt="Sparkling graphic" height={200}/>
+                <img src="../../resources/bottom sparkle.png" alt="Sparkling graphic" height={150}/>
             </center>
         </footer>
 	);

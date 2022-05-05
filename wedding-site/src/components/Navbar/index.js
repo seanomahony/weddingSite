@@ -29,12 +29,12 @@ export default function Navbar() {
           <li>
             <a href="/Rsvp">RSVP</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/photoUpload">Photo Upload</a>
           </li>
           <li>
             <a href="/photoGallery">Photo Gallery</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

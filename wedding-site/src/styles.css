@@ -4,6 +4,12 @@
         format("truetype");
 }
 
+@font-face {
+    font-family: "TheSeasons";
+    src: url("\\resources\\TheSeasons\\Fontspring-DEMO-theseasons-reg.otf")
+        format("opentype");
+}
+
 h1 {
     font-family: "Euphoria";
     background-color: #011e31;
@@ -12,8 +18,25 @@ h1 {
     font-weight: 100;
 }
 
-* {
-    font-family: sans-serif;
+h2 {
+    font-family: "TheSeasons";
     background-color: #011e31;
     color: #f9cc66;
 }
+
+* {
+    font-family: "TheSeasons";
+    background-color: #011e31;
+    color: #f9cc66;
+}
+
+.card {
+    box-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: fit-content ;
+    gap: 2rem;
+  margin: 2rem;
+  padding: 10px;
+  }
+  
