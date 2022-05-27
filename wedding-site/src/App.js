@@ -9,6 +9,8 @@ import Details from './pages/details';
 import Gallery from './pages/photoGallery';
 import Upload from './pages/photoUpload';
 import Rsvp from './pages/rsvp';
+import Directions from './pages/directions';
+import Contact from './pages/contactus';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path='/rsvp' element={<Rsvp />} />
         <Route path='/photoGallery' element={<Gallery />} />
         <Route path='/photoUpload' element={<Upload />} />
+        <Route path='/directions' element={<Directions />} />
+        <Route path='/contactus' element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

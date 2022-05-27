@@ -26,7 +26,7 @@ const Details = () => {
 				</center>
 			</h2>
 			<p>
-				Busses are being arranged from the Carrigaline Court Hotel to Roberts Cove times TBC
+				Buses are being arranged from the Carrigaline Court Hotel to Roberts Cove times TBC
 				<br />
 				Buses will also return from Roberts Cove to the hotel that night.
 				<br /><br />
@@ -37,11 +37,13 @@ const Details = () => {
 				</center>
 			</h2>
 			<p>
-				Anyone looking to book accommodation - we have rooms reserved in the Carrigaline Court hotel. To avail, please ring Gillian McCarthy on  021-4852100 between 9am - 12.30pm Monday to Friday to reserve your room. If you wish to stay further than one night please ring reception to amend your booking.
+				Anyone looking to book accommodation - we have rooms reserved in the Carrigaline Court hotel. 
+				To avail, please ring Gillian McCarthy on <a href="tel:0214852100">0214852100</a> between 9am and 12.30pm Monday to Friday to reserve your room. <br/>
+				If you wish to stay further than one night please ring reception to amend your booking.
 				<br />
-				There are also some local BnB’s in the area between Minane Bridge and Carrigaline.
+				There are also some local BnBs in the area between Minane Bridge and Carrigaline.
 				<br />
-				Kinsale is also close by if anyone wishes to go that direction they will need to organise their own transport.
+				Kinsale is also close by if anyone wishes to go that direction but they will need to organise their own transport.
 			</p>
 		</div>
 	);
