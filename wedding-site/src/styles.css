@@ -5,12 +5,6 @@
 }
 
 @font-face {
-    font-family: "TheSeasons";
-    src: url("\\resources\\TheSeasons\\Fontspring-DEMO-theseasons-reg.otf")
-        format("opentype");
-}
-
-@font-face {
     font-family: "PT Serif Caption";
     font-style: normal;
     font-weight: 400;
@@ -18,41 +12,38 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+  body {
+      background-image: url('resources/background.png');
+      background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
 h1 {
     font-family: "Euphoria";
-    background-color: #011e31;
     color: #f9cc66;
-    font-size: 4em;
+    font-size: 8vw;
     font-weight: 100;
+    margin:auto;
+    
 }
 
 h2 {
     font-family: "TheSeasons";
-    background-color: #011e31;
-    color: #f9cc66;
-}
-
-a {
-    font-family: "PT Serif Caption";
-    background-color: #011e31;
-    color: #f9cc66;
+    
+    color: white;
 }
 
 p {
     margin: 35px;
-    font-family: "TheSeasons";
-    background-color: #011e31;
-    color: #f9cc66;
-}
-
-* {
-    font-family: "TheSeasons";
-    background-color: #011e31;
-    color: #f9cc66;
+    font-family: "PT Serif Caption";
+    
+    color: white;
 }
 
 .card {
-    box-shadow: 4px 4px 4px 4px white;
+    background-color: #011e3180;
+    box-shadow: 4px 4px 4px 4px #011e3180;
     transition: 0.3s;
     border-radius: 5px;
     width: fit-content ;
@@ -61,5 +52,61 @@ p {
   padding: 10px;
   }
 
+  .centeredBox {
+    background-color: #011e3180;
+	border-radius: 25px 25px 25px 25px; 
+	text-align: center;
+	width: 35%;
+	margin: auto;
+
+  }
+
+  .widercenteredBox {
+    background-color: #011e3180;
+	border-radius: 25px 25px 25px 25px; 
+	text-align: center;
+	width: 50%;
+	margin: auto;
+  }
+
+  .flexLayout{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sideBox{
+    background-color: #011e3180;
+	border-radius: 25px 25px 25px 25px; 
+	text-align: center;
+    width: 45%;
+	margin: 3%;
+  }
+
+  a{
+      color: whitesmoke;
+  }
+
+  /* #leftalign {
+	float: left;
+	padding: 5px;
+    margin-left: 3%;
+}
+
+#rightalign {
+	float: right;
+	padding: 5px;
+    margin-right: 3%;
+} */
+
+@media screen and (max-width: 768px) {
+    .sideBox{
+        width: 90%;
+    }
+
+    .flexLayout{
+        display: flex;
+        flex-direction: column;
+      }
+}
  
   
